@@ -2,52 +2,9 @@
 <html>
 	<head>
 		<title>Bubble Shooter</title>
-		<script type="text/javascript" src="src/js/index.js"></script>
-		<script type="text/javascript" src="src/js/board.js"></script>
-		<style type="text/css">
-			@import url('https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap');
-			body {
-				margin: 0;
-				padding: 0;
-				overflow: hidden;
-				cursor: none;
-				user-select: none;
-			}
-			.pt {
-				position: absolute;
-				top: 10px;
-				right: 10px;
-				color: #e6e6e6;
-				font-family: Yeon Sung;
-				font-size: 40px;
-			}
-			.hs {
-				position: absolute;
-				top: 60px;
-				right: 10px;
-				color: #dcc92d;
-				font-family: Yeon Sung;
-				font-size: 25px;
-			}
-			.pt.bl {
-				animation: blink 0.15s linear 0s 3;
-			}
-			.cnv {
-				width: 100%;
-				height: 100%;
-			}
-			@keyframes blink{
-				0%{
-					color: #e6e6e6;
-				}
-				50%{
-					color: black;
-				}
-				100%{
-					color: #e6e6e6;
-				}
-			}
-		</style>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/board.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
 		<canvas class="cnv"></canvas>
