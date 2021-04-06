@@ -85,7 +85,7 @@ class Board{
 				ctx.moveTo(this.ax,this.ay);
 				var x=this.ax+0;
 				var y=this.ay+0;
-				var end=false
+				var end=false;
 				while (end==false){
 					x+=dx;
 					y+=dy;
